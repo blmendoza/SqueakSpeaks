@@ -34,18 +34,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/editText" />
 
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/content"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:foreground="?android:attr/selectableItemBackground"
-        >
-        <ImageView
-            android:id="@+id/phone_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:src="@drawable/ringer_on"/>
-    </FrameLayout>
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:background="@drawable/sunglassed_rubber_duck"
+        android:contentDescription="rubber duck"
+        android:onClick="sendMessage"
+        android:scaleType="fitXY"
+        android:visibility="visible" />
 
 </android.support.constraint.ConstraintLayout>

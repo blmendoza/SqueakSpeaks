@@ -34,11 +34,18 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/editText" />
 
-    <ImageView
-        android:id="@+id/myImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="https://www.google.com/search?q=rubber+duck&rlz=1C1CHBF_enUS696US696&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjh9dao0aXXAhUo9YMKHSWKBGAQ_AUICigB&biw=871&bih=800#imgrc=j5qNv9_CjnRSkM:"
-        />
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+        <ImageView
+            android:id="@+id/phone_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ringer_on"/>
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

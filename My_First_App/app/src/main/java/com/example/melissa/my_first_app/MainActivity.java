@@ -26,13 +26,4 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
-
-    ImageView imageView = (ImageView) findViewById(R.id.myImageView);
-    imageView.setOnClickListener(new OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent intent = new Intent(ThisActivity.this, MyOtherActivity.class);
-            startActivity(intent);
-        }
-    });
 }

@@ -1,4 +1,4 @@
-package com.example.squeakspeaks;
+package com.example.melissa.my_first_app;
 
 import org.junit.Test;
 

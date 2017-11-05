@@ -41,7 +41,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="350dp"
         android:adjustViewBounds="false"
-        android:background="@drawable/sunglassed_rubber_duck"
+        android:background="@drawable/ducky"
         android:contentDescription="rubber duck"
         android:onClick="sendMessage"
         android:scaleType="fitXY"

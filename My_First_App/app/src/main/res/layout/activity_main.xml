@@ -72,97 +72,105 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="Im so angry! My code wont work" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="Tell me more"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="HTML sucks!" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="Could you elaborate a little more?"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="One minute everything was fine, then I added a paragraph and nothing works!" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="What error are you getting?"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="something about something is unclosed" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="What is that supposed to do?"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="not sure maybe a tag is wrong" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="How is that supposed to work?"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="all my tags should be closed" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="Tell me more"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="well looking at my code, i thought is was fine" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="Could you elaborate on that?"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="oh dang, looks like i missed it when I added the paragraph" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/sent_message" />
+                android:text="I hear you!"
+                android:textStyle="bold"/>
         </LinearLayout>
     </ScrollView>
 
